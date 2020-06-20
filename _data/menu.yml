@@ -1,0 +1,20 @@
+#- title: "Research"
+#  href: "/research/"
+
+- title: "About"
+  href: "#about"
+
+- title: "CV"
+  href: "#cv"
+
+- title: "Publications"
+  href: "#publications"
+
+- title: "Contact"
+  href: "#contact"
+
+#- title: "Misc"
+#  href: "/misc/"
+
+#- title: "Blog"
+#  href: "/blog/"
