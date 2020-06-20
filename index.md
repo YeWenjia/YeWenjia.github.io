@@ -17,14 +17,10 @@ My research area is Programming Language, Type System, Gradual Tying.
 
 ## Academics
 
-1. *Graduate Student* (Sep'18 - present) <br />
+1. *PhD Student* (July'2020 - present) <br />
    Department of Computer Science, <br />
    The University of Hong Kong. <br />
-   Field of study: Functional programming
-
-2. *BS Computer Science* (Oct'11 - Jun'15) <br />
-   PUCIT, University of the Punjab, <br />
-   Lahore, Pakistan.
+   Field of study: Programming Language
 
 ## Industry Experience
 
@@ -67,10 +63,10 @@ Accepted at ECOOP 2020, April 2020
 
 ## Contact
 
-Baber Rehman <br />
+Wenjia YE <br />
 Research Postgraduate Student <br />
 Department of Computer Science<br />
 The University of Hong Kong<br />
 
 Office: Room 426 CYC Building<br />
-Email: [brehman@cs.hku.hk]
+Email: [yewenjia@cs.hku.hk]
