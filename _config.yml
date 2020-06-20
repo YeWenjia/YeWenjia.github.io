@@ -1,11 +1,11 @@
-title: Baber Rehman's Home Page
+title: Wenjia YE's Home Page
 description: PL Research @ HKU
 sourcecode: "https://github.com/gchauras/much-worse-jekyll-theme"
 
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
 
-url: "http://baberrehman.github.io"     # the base hostname & protocol for your site
+url: "http://yewenjia.github.io"     # the base hostname & protocol for your site
 baseurl: "/"                   # the subpath of your site, e.g. /blog
 
 author:
