@@ -8,12 +8,12 @@ permalink: /
 
 ## About
 
-Baber Rehman <br />
+Wenjia YE <br />
 Programming Languages Research @ HKU <br />
-[[Github](https://github.com/baberrehman/)] | [[LinkedIn](https://www.linkedin.com/in/baberrehman/)] | [brehman@cs.hku.hk]
+Email : yewenjia@cs.hku.hk
 
-I am a research postgraduate student at the Department of Computer Science, University of Hong Kong since September 2018. I am working under the supervision of Dr. Bruno Oliveira.
-My research area is functional programming. I have few years of experience working in industry as DevOps Engineer and Lecturer.
+I am a PhD student at the Department of Computer Science, University of Hong Kong. I am working under the supervision of Dr. Bruno Oliveira.
+My research area is Programming Language, Type System, Gradual Tying.
 
 ## Academics
 
