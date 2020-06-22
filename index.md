@@ -21,8 +21,9 @@ My research area is Programming Language, Type System, Gradual Tying.
    Department of Computer Science, <br />
    The University of Hong Kong. <br />
    Field of study: Programming Language
+   
 
-## Industry Experience
+## Research
 
 1. *DevOps Lead* (May'17 - Aug'18) <br />
    CloudPlex PVT LTD, <br />
@@ -36,30 +37,31 @@ My research area is Programming Language, Type System, Gradual Tying.
    Mentor Graphics, <br />
    Lahore, Pakistan. 
 
-## Teaching
+
+## Work
+
+1. *DevOps Lead* (May'17 - Aug'18) <br />
+   CloudPlex PVT LTD, <br />
+   Lahore, Pakistan.
+
+2. *DevOps Engineer* (May'15 - May'17) <br />
+   CloudPlex PVT LTD, <br />
+   Lahore, Pakistan.
+
+3. *Intern* (Jul'14 - Sep'14) <br />
+   Mentor Graphics, <br />
+   Lahore, Pakistan. 
+
+## Awards
 
 1. *Teacher Assistant* (Spring'20). Principals of Programming Languages. The University of Hong Kong.
 2. *Teacher Assistant* (Fall'18). Functional Programming. The University of Hong Kong.
 3. *Visiting Lecturer* (Oct'15 - Jun'16). PUCIT, University of the Punjab.
 4. *Teacher Assistant* (Oct'13 - Jun'15). PUCIT, University of the Punjab.
 
-
-## Conferences
-
-1. International Conference on Functional Programming (Aug'19). <br />
-   Berlin, Germany.
-2. Oregon Programming Languages Summer School (Jun'19), University of Oregon. <br />
-   Eugene, Oregon, United States.
-
 ## CV
 
 [Download PDF](files/cv.pdf).
-
-## Publications
-* The Duality of Subtyping
-[PDF](files/duo_ecoop2020.pdf) <br />
-Bruno C. d. S. Oliveira, Shaobo Cui and Baber Rehman <br />
-Accepted at ECOOP 2020, April 2020 
 
 ## Contact
 
