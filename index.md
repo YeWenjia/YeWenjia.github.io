@@ -54,10 +54,10 @@ My research area is Programming Language, Type System, Gradual Tying.
 
 ## Awards
 
-*ACM* CCPC/ICPC University Programming Design Competition at Hangzhou (Bronze prize in Nov. 2016)
-*ACM* CCPC/ICPC University Programming Design Competition at Qinhuangdao (Excellent prize in Jun. 2017)
-*ACM* CCPC/ICPC Fujian Province University Programming Design Competition (three Silver Prizes in 2016, 2017, 2018)
-*ACM* National software and IT competition for the professional--individual (the third prize in Apr. 2017)
+*ACM* CCPC/ICPC University Programming Design Competition at Hangzhou (Bronze prize in Nov. 2016) <br />
+*ACM* CCPC/ICPC University Programming Design Competition at Qinhuangdao (Excellent prize in Jun. 2017) <br />
+*ACM* CCPC/ICPC Fujian Province University Programming Design Competition (three Silver Prizes in 2016, 2017, 2018) <br />
+*ACM* National software and IT competition for the professional--individual (the third prize in Apr. 2017) <br />
 
 ## CV
 
