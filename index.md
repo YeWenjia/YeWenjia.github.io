@@ -87,7 +87,7 @@ My research focuses on Programming Language, Type System, Gradual Tying, Compile
    
 ## CV
 
-[Download PDF](files/cv.pdf).
+[Download PDF](files/WenjiaYE_CV.pdf).
 
 ## Volunteer
 
