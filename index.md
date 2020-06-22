@@ -13,7 +13,7 @@ Programming Languages Research @ HKU <br />
 Email : yewenjia@cs.hku.hk
 
 I am a PhD student at the Department of Computer Science, University of Hong Kong. I am working under the supervision of Dr. Bruno Oliveira.
-My research area is Programming Language, Type System, Gradual Tying.
+My research area is Programming Language, Type System, Gradual Tying, Compilers and Program Analysis.
 
 ## Academics
 
