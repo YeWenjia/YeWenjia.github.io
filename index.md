@@ -45,7 +45,7 @@ My research area is Programming Language, Type System, Gradual Tying.
    Hong Kong, China.
 
 *Intern @Tsinghua University NetMan Lab* (May'2019 - August'2019) <br />
-   Machine Learning, <br />
+   Machine Learning <br />
    Beijing, China.
 
 *Intern  @National Key Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences* (Feb'2019 -  May'2019) <br />
@@ -58,6 +58,7 @@ My research area is Programming Language, Type System, Gradual Tying.
 *ACM* @CCPC/ICPC University Programming Design Competition at Qinhuangdao (Excellent prize in Jun. 2017) <br />
 *ACM* @CCPC/ICPC Fujian Province University Programming Design Competition (three Silver Prizes in 2016, 2017, 2018) <br />
 *ACM* @National software and IT competition for the professional--individual (the third prize in Apr. 2017) <br />
+*Language* @National English Contest for College Students (The second prize in 2017 and 2018)
 
 ## CV
 
