@@ -10,14 +10,14 @@ permalink: /
 
 Wenjia YE <br />
 Programming Languages Research @ HKU <br />
-Email : yewenjia@cs.hku.hk
+Email : yewenjia@hku.hk
 
-I am a PhD student at the Department of Computer Science, University of Hong Kong. I am working under the supervision of Dr. Bruno Oliveira.
-My research area is Programming Language, Type System, Gradual Tying, Compilers and Program Analysis.
+I am a PhD student at the Department of Computer Science, The University of Hong Kong. I am working under the supervision of Dr. Bruno Oliveira.
+My research focuses on Programming Language, Type System, Gradual Tying, Compilers and Program Analysis.
 
 ## Academics
 
-*PhD Student* (July'2020 - present) <br />
+*PhD Student* (July2020 - present) <br />
    Department of Computer Science, <br />
    The University of Hong Kong. <br />
    Field of study: Programming Language
@@ -25,7 +25,7 @@ My research area is Programming Language, Type System, Gradual Tying, Compilers 
 
 ## Research
 
-*Machine Learning: regressive Prediction* <br />
+*Machine Learning: Regressive Prediction* <br />
    To predict using Gaussian <br />
 
 *Online Information Convey System on Amyotrophic Lateral Sclerosis (ALS)* <br />
@@ -36,15 +36,15 @@ My research area is Programming Language, Type System, Gradual Tying, Compilers 
 
 ## Work
 
-*Research Assistant @The Universtity of Hong Kong* (Dec'2019 - Jun'2020) <br />
+*Research Assistant @The Universtity of Hong Kong* (Dec.2019 - Jun.2020) <br />
    Functional Programming Language, Type System <br />
    Hong Kong, China.
 
-*Intern @Tsinghua University NetMan Lab* (May'2019 - August'2019) <br />
+*Intern @Tsinghua University NetMan Lab* (May.2019 - August.2019) <br />
    Machine Learning <br />
    Beijing, China.
 
-*Intern  @National Key Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences* (Feb'2019 -  May'2019) <br />
+*Intern  @National Key Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences* (Feb.2019 -  May.2019) <br />
    Natural Language Processing <br />
    Beijing, China. 
 
