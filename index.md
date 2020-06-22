@@ -44,20 +44,20 @@ My research area is Programming Language, Type System, Gradual Tying.
    Functional Programming Language, Type System <br />
    Hong Kong, China.
 
-*Intern Tsinghua University NetMan Lab* (May'2019 - August'2019) <br />
+*Intern @Tsinghua University NetMan Lab* (May'2019 - August'2019) <br />
    Machine Learning, <br />
    Beijing, China.
 
-*Intern  National Key Laboratory of Pattern Recognition, Institute of Automation, CAS* (Feb'2019 - May'2019) <br />
+*Intern  @National Key Laboratory of Pattern Recognition, Institute of Automation, CAS* (Feb'2019 - May'2019) <br />
    Natural Language Processing <br />
    Beijing, China. 
 
 ## Awards
 
-*ACM* CCPC/ICPC University Programming Design Competition at Hangzhou (Bronze prize in Nov. 2016) <br />
-*ACM* CCPC/ICPC University Programming Design Competition at Qinhuangdao (Excellent prize in Jun. 2017) <br />
-*ACM* CCPC/ICPC Fujian Province University Programming Design Competition (three Silver Prizes in 2016, 2017, 2018) <br />
-*ACM* National software and IT competition for the professional--individual (the third prize in Apr. 2017) <br />
+*ACM* @CCPC/ICPC University Programming Design Competition at Hangzhou (Bronze prize in Nov. 2016) <br />
+*ACM* @CCPC/ICPC University Programming Design Competition at Qinhuangdao (Excellent prize in Jun. 2017) <br />
+*ACM* @CCPC/ICPC Fujian Province University Programming Design Competition (three Silver Prizes in 2016, 2017, 2018) <br />
+*ACM* @National software and IT competition for the professional--individual (the third prize in Apr. 2017) <br />
 
 ## CV
 
