@@ -17,7 +17,7 @@ My research area is Programming Language, Type System, Gradual Tying.
 
 ## Academics
 
-1. *PhD Student* (July'2020 - present) <br />
+*PhD Student* (July'2020 - present) <br />
    Department of Computer Science, <br />
    The University of Hong Kong. <br />
    Field of study: Programming Language
@@ -40,24 +40,24 @@ My research area is Programming Language, Type System, Gradual Tying.
 
 ## Work
 
-1. *DevOps Lead* (May'17 - Aug'18) <br />
-   CloudPlex PVT LTD, <br />
-   Lahore, Pakistan.
+*Research Assistant @The Universtity of Hong Kong* (Dec'2019 - Jun'2020) <br />
+   Functional Programming Language, Type System <br />
+   Hong Kong, China.
 
-2. *DevOps Engineer* (May'15 - May'17) <br />
-   CloudPlex PVT LTD, <br />
-   Lahore, Pakistan.
+*Intern Tsinghua University NetMan Lab* (May'2019 - August'2019) <br />
+   Machine Learning, <br />
+   Beijing, China.
 
-3. *Intern* (Jul'14 - Sep'14) <br />
-   Mentor Graphics, <br />
-   Lahore, Pakistan. 
+*Intern  National Key Laboratory of Pattern Recognition, Institute of Automation, CAS* (Feb'2019 - May'2019) <br />
+   Natural Language Processing <br />
+   Beijing, China. 
 
 ## Awards
 
-1. *Teacher Assistant* (Spring'20). Principals of Programming Languages. The University of Hong Kong.
-2. *Teacher Assistant* (Fall'18). Functional Programming. The University of Hong Kong.
-3. *Visiting Lecturer* (Oct'15 - Jun'16). PUCIT, University of the Punjab.
-4. *Teacher Assistant* (Oct'13 - Jun'15). PUCIT, University of the Punjab.
+*ACM* CCPC/ICPC University Programming Design Competition at Hangzhou (Bronze prize in Nov. 2016)
+*ACM* CCPC/ICPC University Programming Design Competition at Qinhuangdao (Excellent prize in Jun. 2017)
+*ACM* CCPC/ICPC Fujian Province University Programming Design Competition (three Silver Prizes in 2016, 2017, 2018)
+*ACM* National software and IT competition for the professional--individual (the third prize in Apr. 2017)
 
 ## CV
 
