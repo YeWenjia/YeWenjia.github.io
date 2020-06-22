@@ -48,7 +48,7 @@ My research area is Programming Language, Type System, Gradual Tying.
    Machine Learning, <br />
    Beijing, China.
 
-*Intern  @National Key Laboratory of Pattern Recognition, Institute of Automation, CAS* (Feb'2019 - May'2019) <br />
+*Intern  @National Key Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences* (Feb'2019 -  May'2019) <br />
    Natural Language Processing <br />
    Beijing, China. 
 
