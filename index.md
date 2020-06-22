@@ -17,7 +17,7 @@ My research focuses on Programming Language, Type System, Gradual Tying, Compile
 
 ## Academics
 
-*PhD Student* (July2020 - present) <br />
+*PhD Student* (Jul. 2020 - present) <br />
    Department of Computer Science, <br />
    The University of Hong Kong. <br />
    Field of study: Programming Language
@@ -36,15 +36,15 @@ My research focuses on Programming Language, Type System, Gradual Tying, Compile
 
 ## Work
 
-*Research Assistant @The Universtity of Hong Kong* (Dec.2019 - Jun.2020) <br />
+*Research Assistant @The Universtity of Hong Kong* (Dec. 2019 - Jun. 2020) <br />
    Functional Programming Language, Type System <br />
    Hong Kong, China.
 
-*Intern @Tsinghua University NetMan Lab* (May.2019 - August.2019) <br />
+*Intern @Tsinghua University NetMan Lab* (May. 2019 - August. 2019) <br />
    Machine Learning <br />
    Beijing, China.
 
-*Intern  @National Key Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences* (Feb.2019 -  May.2019) <br />
+*Intern  @National Key Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences* (Feb. 2019 -  May. 2019) <br />
    Natural Language Processing <br />
    Beijing, China. 
 
@@ -91,7 +91,7 @@ My research focuses on Programming Language, Type System, Gradual Tying, Compile
 
 ## Volunteer
 
-*Volunteer Translator @2017 BRICS Summit* Excellent Volunteer 
+*Volunteer Translator @2017 BRICS Summit* : Excellent Volunteer 
 
 ## Contact
 
