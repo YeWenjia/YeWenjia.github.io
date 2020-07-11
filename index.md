@@ -101,4 +101,4 @@ Department of Computer Science<br />
 The University of Hong Kong<br />
 
 Office: Room 426 CYC Building<br />
-Email: [yewenjia@cs.hku.hk]
+Email: [yewenjia@connect.hku.hk]
