@@ -4,7 +4,7 @@ layout: page
 permalink: /
 ---
 
-{% include image.html url="images/photo.jpg" caption="" max_width="100px" max_height="120px" align="right" %}
+{% include image.html url="images/photo.jpg" caption="" max_width="95px" max_height="120px" align="right" %}
 
 ## About
 
