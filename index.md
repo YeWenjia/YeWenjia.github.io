@@ -138,8 +138,8 @@ Email: [yewenjia@connect.hku.hk] -->
    Software Copyright based on encrypted QR code ticketing system <br /> -->
 
 
-   <!-- 
-## Research
+
+<!-- ## Research
 
 *Machine Learning: Regressive Prediction* <br />
    To predict using Gaussian <br />
@@ -148,4 +148,4 @@ Email: [yewenjia@connect.hku.hk] -->
    By detecting patients’ blinking to convey information such as opening a door, a light or typing words in a screen <br />
 
 *Rapid Ticketing and Verification System for Subway Transportation* <br />
-   Mobile software development and encryption application <br /> -->
+   Mobile software development and encryption application <br />  -->
