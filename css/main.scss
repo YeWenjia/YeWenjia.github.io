@@ -12,12 +12,12 @@ $base-line-height: 1.5;
 $spacing-unit:     1.5em;
 
 $grey-vlight:#fdfafa;
-$grey-light: #fbf8f8;
-$grey:       #bdbcbc;
-$grey-dark:  #a7a4a4;
-$grey-vdark: #a39e9e;
+$grey-light: #ccc;
+$grey:       #888;
+$grey-dark:  #444;
+$grey-vdark: #222;
 $blue:       #0091ed;
-$orange:     #f0ece9;
+$orange:     #ca6c18;
 $red:        #b6321c;
 
 $background:        $grey-vlight;
@@ -25,7 +25,7 @@ $dark-background:   darken($background, 20%);
 $text-color:        $grey-vdark;
 $text-light-color:  $grey;
 $url-color:         $red;
-$url-hover-color:   $grey-vlight;
+$url-hover-color:   $orange;
 $header-text-color: $text-light-color;
 $header-hover-color:$text-color;
 $header-hover-url:  $url-color;
