@@ -47,11 +47,11 @@ Wenjia Ye and Bruno C. d. S. Oliveira <br />
 Under revision of <i>Journal of Functional Programming</i>
 
 * Merging Gradual Typing <br />
-Wenjia Ye, Matias Toro and Bruno C. d. S. Oliveira <br />
+Wenjia Ye, Mat{\'i}as Toro and Bruno C. d. S. Oliveira <br />
 Submitted to <i>OOPSLA2024</i>
 
 * Analysis and Formalization of Typing in SQL Engines <br />
-Wenjia Ye, Matias Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Eric Tanter. <br />
+Wenjia Ye, Mat{\'i}as Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Eric Tanter. <br />
 Draft
 
 ## Experience
