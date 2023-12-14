@@ -4,14 +4,15 @@
 - title: "About"
   href: "#about"
 
-- title: "CV"
-  href: "#cv"
+- title: "Awards"
+  href: "#awards"
 
 - title: "Publications"
   href: "#publications"
 
-- title: "Awards"
-  href: "#awards"
+- title: "CV"
+  href: "#cv"
+
 
 # - title: "Contact"
 #   href: "#contact"
