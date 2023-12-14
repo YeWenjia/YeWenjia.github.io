@@ -8,8 +8,8 @@ permalink: /
 
 ## About
 
-Wenjia YE <br />
-Programming Languages Research @ HKU <br />
+<!-- Wenjia YE <br /> -->
+<!-- Programming Languages Research @ HKU <br /> -->
 Email : yewenjia@connect.hku.hk
 
 I am a PhD student at the Department of Computer Science, The University of Hong Kong. I am working under the supervision of Dr. Bruno Oliveira.
