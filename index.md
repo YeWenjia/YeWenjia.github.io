@@ -22,23 +22,39 @@ My research focuses on Programming Language, Type System and Gradual Tying.
    The University of Hong Kong. <br />
    Field of study: Programming Language
    
-<!-- 
-## Research
 
-*Machine Learning: Regressive Prediction* <br />
-   To predict using Gaussian <br />
-
-*Online Information Convey System on Amyotrophic Lateral Sclerosis (ALS)* <br />
-   By detecting patients’ blinking to convey information such as opening a door, a light or typing words in a screen <br />
-
-*Rapid Ticketing and Verification System for Subway Transportation* <br />
-   Mobile software development and encryption application <br /> -->
 
 ## Publications
 
-test
+* A Gradual Probabilistic Lambda Calculus <br />
+Wenjia Ye, Matias Toro, and Federico Olmedo<br />
+In <i>OOPSLA2023</i>
 
-## Work 
+* Pragmatic Gradual Polymorphism with References <br />
+Wenjia Ye and Bruno C. d. S. Oliveira<br />
+In <i>ESOP2023</i>
+
+* Type-Directed Operational Semantics for Gradual Typing <br />
+Wenjia Ye, Bruno C. d. S. Oliveira, and Xuejing Huang<br />
+In <i>ECOOP2021</i>
+
+* Stm32-Based Vehicle Data Acquisition System for Internet-of-Vehicles <br />
+Yong Xie, Xinpu Su, Yifan He, Xuhui Chen, Gengliang Cai, Baisheng Xu, and Wenjia Ye<br />
+In <i>ICIS2017</i>
+
+* Type-Directed Operational Semantics for Gradual Typing <br />
+Wenjia Ye and Bruno C. d. S. Oliveira <br />
+Under revision of <i>Journal of Functional Programming</i>
+
+* Merging Gradual Typing <br />
+Wenjia Ye, Matias Toro and Bruno C. d. S. Oliveira <br />
+Submitted to <i>OOPSLA2024</i>
+
+* Analysis and Formalization of Typing in SQL Engines <br />
+Wenjia Ye, Matias Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Eric Tanter. <br />
+Draft
+
+## Experience
 
 *Research Assistant @The Universtity of Hong Kong* (Dec. 2019 - Jun. 2020) <br />
    Functional Programming Language, Type System <br />
@@ -48,7 +64,7 @@ test
    Machine Learning <br />
    Beijing, China.
 
-*Intern  @National Key Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences* (Feb. 2019 -  May. 2019) <br />
+*Intern  @National Key Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences* (Feb. 2019 - May. 2019) <br />
    Natural Language Processing <br />
    Beijing, China. 
 
@@ -72,7 +88,39 @@ test
 *Scholarships & Honors* @National Excellent Representative of National Scholarship Awarders (0.2%) (2019) <br />
 *Scholarships & Honors* @Excellent Undergraduate Student (2019) <br />
 
-## Skill
+
+## Teaching
+1. *Teacher Assistant* (2020-2021). Functional Programming. The University of Hong Kong.
+2. *Teacher Assistant* (2020-2021). Discrete Mathematics. The University of Hong Kong.
+3. *Teacher Assistant* (2021-2022). Introduction to Data Structures and Algorithms. The University of Hong Kong.
+
+## Community Service
+
+* ESOP2024:AEC
+* ESOP2023:Student Volunteer
+* ECOOP2022:AEC
+* ECOOP2022:(Sub)reviewer
+* ESOP2023:Student Volunteer
+
+   
+## CV
+
+[Download PDF](files/WenjiaYE_CV.pdf).
+
+
+<!-- ## Contact
+
+Wenjia YE <br />
+Research Postgraduate Student <br />
+Department of Computer Science<br />
+The University of Hong Kong<br />
+
+Office: Room 426 CYC Building<br />
+Email: [yewenjia@connect.hku.hk] -->
+
+
+
+<!-- ## Skill
 
 *Main Qualification Certificates* <br />
   IBM Software Engineer <br />
@@ -84,25 +132,20 @@ test
    C Language-Intermediate <br /> 
 
 *Main Qualification Certificates* <br />
-   C Language-Intermediate <br /> 
+   C Language-Intermediate <br />  -->
    
-*SoftWare Copyright* <br />
-   Software Copyright based on encrypted QR code ticketing system <br />
-   
-## CV
+<!-- *SoftWare Copyright* <br />
+   Software Copyright based on encrypted QR code ticketing system <br /> -->
 
-[Download PDF](files/WenjiaYE_CV.pdf).
 
-## Volunteer
+   <!-- 
+## Research
 
-*Volunteer Translator @2017 BRICS Summit* : Excellent Volunteer 
+*Machine Learning: Regressive Prediction* <br />
+   To predict using Gaussian <br />
 
-<!-- ## Contact
+*Online Information Convey System on Amyotrophic Lateral Sclerosis (ALS)* <br />
+   By detecting patients’ blinking to convey information such as opening a door, a light or typing words in a screen <br />
 
-Wenjia YE <br />
-Research Postgraduate Student <br />
-Department of Computer Science<br />
-The University of Hong Kong<br />
-
-Office: Room 426 CYC Building<br />
-Email: [yewenjia@connect.hku.hk] -->
+*Rapid Ticketing and Verification System for Subway Transportation* <br />
+   Mobile software development and encryption application <br /> -->
