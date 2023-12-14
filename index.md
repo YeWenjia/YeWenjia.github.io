@@ -5,15 +5,15 @@ permalink: /
 ---
 
 {% include image.html url="images/photo.jpg" caption="" max_width="100px" max_height="100px" align="right" %}
-<!-- 
+
 ## About
 
-<!-- Wenjia YE <br />
+Wenjia YE <br />
 Programming Languages Research @ HKU <br />
 Email : yewenjia@connect.hku.hk
 
 I am a PhD student at the Department of Computer Science, The University of Hong Kong. I am working under the supervision of Dr. Bruno Oliveira.
-My research focuses on Programming Language, Type System, Gradual Tying, Compilers and Program Analysis. -->
+My research focuses on Programming Language, Type System, Gradual Tying, Compilers and Program Analysis.
 
 ## Academics
 
@@ -22,7 +22,7 @@ My research focuses on Programming Language, Type System, Gradual Tying, Compile
    The University of Hong Kong. <br />
    Field of study: Programming Language
    
-
+<!-- 
 ## Research
 
 *Machine Learning: Regressive Prediction* <br />
@@ -32,9 +32,11 @@ My research focuses on Programming Language, Type System, Gradual Tying, Compile
    By detecting patients’ blinking to convey information such as opening a door, a light or typing words in a screen <br />
 
 *Rapid Ticketing and Verification System for Subway Transportation* <br />
-   Mobile software development and encryption application <br />
+   Mobile software development and encryption application <br /> -->
 
-## Work
+## Publications
+
+## Work 
 
 *Research Assistant @The Universtity of Hong Kong* (Dec. 2019 - Jun. 2020) <br />
    Functional Programming Language, Type System <br />
@@ -93,7 +95,7 @@ My research focuses on Programming Language, Type System, Gradual Tying, Compile
 
 *Volunteer Translator @2017 BRICS Summit* : Excellent Volunteer 
 
-## Contact
+<!-- ## Contact
 
 Wenjia YE <br />
 Research Postgraduate Student <br />
@@ -102,4 +104,4 @@ The University of Hong Kong<br />
 
 Office: Room 426 CYC Building<br />
 Email: [yewenjia@connect.hku.hk]
- -->
+ --> -->
