@@ -52,7 +52,7 @@ Submitted to <i>OOPSLA2024</i>
 
 * Analysis and Formalization of Typing in SQL Engines <br />
 Wenjia Ye, Mat&iacute;as Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and &Eacute;ric Tanter. <br />
-Draft
+Submitted to <i>VLDB2024</i>
 
 ## Experience
 
