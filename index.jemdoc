@@ -1,0 +1,108 @@
+# jemdoc: {index.html}, nofooter  
+# ./jemdoc index.jemdoc
+== Wenjia Ye
+
+~~~
+{}{img_left}{pic/photo.jpg}{alt text}{220}{200}{https://yewenjia.github.io}
+[https://yewenjia.github.io Wenjia Ye], Ph.D. \n
+Department of Computer Science \n
+University of Hong Kong \n
+E-mail: yewenjia@connect.hku.hk \n 
+\[[https://github.com/YeWenjia Github]\]\[[papers/WenjiaYE_CV.pdf Curriculem Vitae]\] \n
+~~~
+
+== About me
+# I joined Software Engineering School, Sun Yat-sen University as an assistant professor in July 2022.  
+# I received my PhD degree from the University of Hong Kong under the supervision of 
+# [https://www.cs.hku.hk/~bruno Prof. Bruno C. d. S. Oliveira]. 
+
+I am a PhD student at the Department of Computer Science, The University of Hong Kong. I am working under the supervision of [https://www.cs.hku.hk/~bruno Prof. Bruno C. d. S. Oliveira].
+My research focuses on Programming Languages, Type Systems, and Gradual Typing.
+
+
+#~~~
+#{}{raw}
+#<p style="color:#BB0000";>My research interests include large language models, software engineering, deep learning, and programming languages, #particularly in intelligent software engineering. Our group is always recruiting undergraduate/master students. Please contact me with your CV #attached if you are interested in the above topics.</p> 
+#~~~
+
+
+
+
+== Publications 
+- *Imperative Compositional Programming* \n 
+  *Wenjia Ye*, Yaozhu Sun and Bruno C. d. S. Oliveira \n 
+  Accepted In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
+- *Elucidating Type Conversions in SQL Engines* \n 
+  *Wenjia Ye*, Matías Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Éric Tanter \n 
+  Accepted In European Symposium on Programming. (*ESOP2025*) \n 
+- *Merging Gradual Typing* \n 
+  *Wenjia Ye*, Bruno C. d. S. Oliveira and Matías Toro \n 
+  Accepted In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
+- *Type-Directed Operational Semantics for Gradual Typing* \[[papers/JFP2024.pdf pdf]\] \n 
+  *Wenjia Ye* and Bruno C. d. S. Oliveira \n 
+  Accepted In Journal of Functional Programming. (*JFP2024*) \n 
+- *A Gradual Probabilistic Lambda Calculus* \[[papers/OOPSLA2023.pdf pdf]\] \n 
+  *Wenjia Ye*, Matías Toro, and Federico Olmedo \n 
+  In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2023*) \n 
+- *Pragmatic Gradual Polymorphism with References* \[[papers/ESOP2023.pdf pdf]\] \n 
+  *Wenjia Ye* and Bruno C. d. S. Oliveira \n 
+  In European Symposium on Programming. (*ESOP2023*) \n 
+- *Type-Directed Operational Semantics for Gradual Typing* \[[papers/ECOOP2021.pdf pdf]\] \n 
+  *Wenjia Ye*, Bruno C. d. S. Oliveira, and Xuejing Huang \n 
+  In European Conference on Object-Oriented Programming. (*ECOOP2021*) \n 
+- *Stm32-Based Vehicle Data Acquisition System for Internet-of-Vehicles* \[[papers/ICIS2017.pdf pdf]\] \n 
+  Yong Xie, Xinpu Su, Yifan He, Xuhui Chen, Gengliang Cai, Baisheng Xu, and *Wenjia Ye* \n 
+  In International Conference on Computer and Information Science. (*ICIS2017*) \n 
+
+
+
+== Awards
+- *ACM* @CCPC/ICPC University Programming Design Competition at Hangzhou (Bronze prize in Nov. 2016) 
+- *ACM* @CCPC/ICPC University Programming Design Competition at Qinhuangdao (Excellent prize in Jun. 2017) 
+- *ACM* @CCPC/ICPC Fujian Province University Programming Design Competition (three Silver Prizes in 2016, 2017, 2018) 
+- *ACM* @National software and IT competition for the professional--individual (the third prize in Apr. 2017) 
+- *Language* @National English Contest for College Students (The second prize in 2017 and 2018) 
+- *Software Development* @2017 National software and IT competition for the professional-entrepreneurial team competition (The second prize in the subway transportation project; excellent prize in Power app project) 
+- *Software Development* @2016 the first China’s Innovation and entrepreneurship achievements fair (the best creative award)
+- *Software Development* @2016 the third China’s next-generation internet technological innovation competition (the third prize) 
+- *Software Development* @2017 the second China’s intelligent interconnection innovation competition—Southern China division (winning prize) 
+- *Internet security* @2017 Fujian Province Cyberspace security competition (the third prize in 2016 and 2017) 
+- *Scholarships & Honors* @National Scholarship (2018) 
+- *Scholarships & Honors* @National Encouragement Scholarship (Academic year of 2015-2016 and 2016-2017) 
+- *Scholarships & Honors* @ABB Scholarship (Academic year of 2016-2017) 
+- *Scholarships & Honors* @Wang Shujing & Wang Wendou Scholarship (2016 and 2017) 
+- *Scholarships & Honors* @National Excellent Representative of National Scholarship Awarders (0.2%) (2019) 
+- *Scholarships & Honors* @Excellent Undergraduate Student (2019) 
+
+
+# == Research Experience
+
+# - *Research Assistant @The Universtity of Hong Kong* (Dec. 2019 - Jun. 2020) \n
+#   Programming Language \n
+#   Hong Kong, China.
+
+# - *Intern @Tsinghua University NetMan Lab* (May. 2019 - August. 2019) \n
+#   Machine Learning \n
+#   Beijing, China.
+
+# - *Intern  @National Key Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences* (Feb. 2019 - May. 2019) \n
+#   Natural Language Processing \n
+#   Beijing, China. 
+
+
+== Services
+- External Reviewer / Subreviewer: ECOOP2022
+- AEC: ECOOP2022, ESOP2024
+- Student Volunteer: ESOP2023, OPLSS2023  
+- Funded Attendee: OPLSS2023, OOPSLA2023
+
+== Teaching
+- *Teacher Assistant* (2020-2021). Functional Programming. The University of Hong Kong.
+- *Teacher Assistant* (2020-2021). Discrete Mathematics. The University of Hong Kong.
+- *Teacher Assistant* (2021-2022). Introduction to Data Structures and Algorithms. The University of Hong Kong.
+- *Teacher Assistant* (2022-2023). Introduction to Data Structures and Algorithms. The University of Hong Kong.
+
+
+
+
+
