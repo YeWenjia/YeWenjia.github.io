@@ -31,16 +31,16 @@ My research focuses on Programming Languages, Type Systems, and Gradual Typing.
 == Publications 
 - *Imperative Compositional Programming* \n 
   *Wenjia Ye*, Yaozhu Sun and Bruno C. d. S. Oliveira \n 
-  Accepted In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
+  In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
 - *Elucidating Type Conversions in SQL Engines* \n 
   *Wenjia Ye*, Matías Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Éric Tanter \n 
-  Accepted In European Symposium on Programming. (*ESOP2025*) \n 
+  In European Symposium on Programming. (*ESOP2025*) \n 
 - *Merging Gradual Typing* \n 
   *Wenjia Ye*, Bruno C. d. S. Oliveira and Matías Toro \n 
-  Accepted In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
+  In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
 - *Type-Directed Operational Semantics for Gradual Typing* \[[papers/JFP2024.pdf pdf]\] \n 
   *Wenjia Ye* and Bruno C. d. S. Oliveira \n 
-  Accepted In Journal of Functional Programming. (*JFP2024*) \n 
+  In Journal of Functional Programming. (*JFP2024*) \n 
 - *A Gradual Probabilistic Lambda Calculus* \[[papers/OOPSLA2023.pdf pdf]\] \n 
   *Wenjia Ye*, Matías Toro, and Federico Olmedo \n 
   In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2023*) \n 
