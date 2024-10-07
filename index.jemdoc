@@ -26,19 +26,17 @@ My research focuses on Programming Languages, Type Systems, and Gradual Typing.
 #~~~
 
 
-
-
 == Publications 
 #- *Principal Type Inference under a Prefix* \n 
 #  Daan Leijen, *Wenjia Ye* \n 
 #  Published by Microsoft: MSR-TR-2024-34. (September 2024) \n 
-- *Imperative Compositional Programming* \n 
+- *Imperative Compositional Programming* \[[papers/OOPSLA2024-ICP.pdf pdf]\] \n 
   *Wenjia Ye*, Yaozhu Sun and Bruno C. d. S. Oliveira \n 
   In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
 - *Elucidating Type Conversions in SQL Engines* \n 
   *Wenjia Ye*, Matías Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Éric Tanter \n 
   In European Symposium on Programming. (*ESOP2025*) \n 
-- *Merging Gradual Typing* \n 
+- *Merging Gradual Typing* \[[papers/OOPSLA2024-MGT.pdf pdf]\] \n 
   *Wenjia Ye*, Bruno C. d. S. Oliveira and Matías Toro \n 
   In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
 - *Type-Directed Operational Semantics for Gradual Typing* \[[papers/JFP2024.pdf pdf]\] \n 
