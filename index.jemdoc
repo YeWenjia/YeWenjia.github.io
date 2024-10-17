@@ -27,9 +27,9 @@ My research focuses on Programming Languages, Type Systems, and Gradual Typing.
 
 
 == Publications 
-#- *Principal Type Inference under a Prefix* \n 
-#  Daan Leijen, *Wenjia Ye* \n 
-#  Published by Microsoft: MSR-TR-2024-34. (September 2024) \n 
+- *Principal Type Inference under a Prefix* \[[papers/principal-tr.pdf pdf]\] \n 
+  Daan Leijen, *Wenjia Ye* \n 
+  Published by Microsoft: MSR-TR-2024-34. (September 2024) \n 
 - *Imperative Compositional Programming* \[[papers/OOPSLA2024-ICP.pdf pdf]\] \n 
   *Wenjia Ye*, Yaozhu Sun and Bruno C. d. S. Oliveira \n 
   In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
