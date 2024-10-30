@@ -4,10 +4,11 @@
 
 ~~~
 {}{img_left}{pic/photo.jpg}{alt text}{220}{200}{https://yewenjia.github.io}
-[https://yewenjia.github.io Wenjia Ye], Ph.D. \n
-Department of Computer Science \n
-University of Hong Kong \n
-E-mail: yewenjia@connect.hku.hk \n 
+[https://yewenjia.github.io Wenjia Ye], Research Fellow \n
+# Ph.D.
+School of Computing \n
+National University of Singapore \n
+E-mail: wenjiaye@nus.edu.sg \n 
 \[[https://github.com/YeWenjia Github]\]\[[papers/WenjiaYE_CV.pdf Curriculem Vitae]\] \n
 ~~~
 
@@ -16,7 +17,7 @@ E-mail: yewenjia@connect.hku.hk \n
 # I received my PhD degree from the University of Hong Kong under the supervision of 
 # [https://www.cs.hku.hk/~bruno Prof. Bruno C. d. S. Oliveira]. 
 
-I am a PhD student at the Department of Computer Science, The University of Hong Kong. I am working under the supervision of [https://www.cs.hku.hk/~bruno Prof. Bruno C. d. S. Oliveira].
+I received my PhD degree from the University of Hong Kong under the supervision of [https://www.cs.hku.hk/~bruno Prof. Bruno C. d. S. Oliveira].
 My research focuses on Programming Languages, Type Systems, and Gradual Typing.
 
 
