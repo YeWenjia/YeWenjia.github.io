@@ -17,6 +17,7 @@ E-mail: wenjiaye@nus.edu.sg \n
 # I received my PhD degree from the University of Hong Kong under the supervision of 
 # [https://www.cs.hku.hk/~bruno Prof. Bruno C. d. S. Oliveira]. 
 
+I am a research fellow in School of Computing, National University of Singapore. I am working with [https://www.manuelrigger.at/ Prof. Manuel Rigger].
 I received my PhD degree from the University of Hong Kong under the supervision of [https://www.cs.hku.hk/~bruno Prof. Bruno C. d. S. Oliveira].
 My research focuses on Programming Languages, Type Systems, and Gradual Typing.
 
@@ -36,19 +37,20 @@ My research focuses on Programming Languages, Type Systems, and Gradual Typing.
   In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
 - *Elucidating Type Conversions in SQL Engines* \n 
   *Wenjia Ye*, Matías Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Éric Tanter \n 
-  In European Symposium on Programming. (*ESOP2025*) \n 
+  In International Joint Conferences On Theory and Practice of Software (European Symposium on Programming). (*ETAPS2025*) \n 
 - *Merging Gradual Typing* \[[papers/OOPSLA2024-MGT.pdf pdf]\] \n 
   *Wenjia Ye*, Bruno C. d. S. Oliveira and Matías Toro \n 
   In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
 - *Type-Directed Operational Semantics for Gradual Typing* \[[papers/JFP2024.pdf pdf]\] \n 
   *Wenjia Ye* and Bruno C. d. S. Oliveira \n 
   In Journal of Functional Programming. (*JFP2024*) \n 
+  Note: This an extended version of the ECOOP 2021 paper.
 - *A Gradual Probabilistic Lambda Calculus* \[[papers/OOPSLA2023.pdf pdf]\] \n 
   *Wenjia Ye*, Matías Toro, and Federico Olmedo \n 
   In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2023*) \n 
 - *Pragmatic Gradual Polymorphism with References* \[[papers/ESOP2023.pdf pdf]\] \n 
   *Wenjia Ye* and Bruno C. d. S. Oliveira \n 
-  In European Symposium on Programming. (*ESOP2023*) \n 
+  In International Joint Conferences On Theory and Practice of Software (European Symposium on Programming). (*ETAPS2023*) \n 
 - *Type-Directed Operational Semantics for Gradual Typing* \[[papers/ECOOP2021.pdf pdf]\] \n 
   *Wenjia Ye*, Bruno C. d. S. Oliveira, and Xuejing Huang \n 
   In European Conference on Object-Oriented Programming. (*ECOOP2021*) \n 
