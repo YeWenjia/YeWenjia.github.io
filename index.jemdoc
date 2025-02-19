@@ -31,29 +31,29 @@ My research focuses on Programming Languages, Type Systems, and Gradual Typing.
 == Publications 
 - *Elucidating Type Conversions in SQL Engines* \n 
   *Wenjia Ye*, Matías Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Éric Tanter \n 
-  In International Joint Conferences On Theory and Practice of Software (European Symposium on Programming). (*ESOP2025*) \n 
+  In International Joint Conferences On Theory and Practice of Software (European Symposium on Programming). (*ESOP2025*, *CCF-B*, *Core Ranking A*) \n 
 - *Principal Type Inference under a Prefix* \[[papers/principal-tr.pdf pdf]\] \n 
   Daan Leijen, *Wenjia Ye* \n 
   Published by Microsoft: MSR-TR-2024-34. (September 2024) \n 
 - *Imperative Compositional Programming* \[[papers/OOPSLA2024-ICP.pdf pdf]\] \n 
   *Wenjia Ye*, Yaozhu Sun and Bruno C. d. S. Oliveira \n 
-  In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
+  In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*, *CCF-A*, *Core Ranking A*) \n 
 - *Merging Gradual Typing* \[[papers/OOPSLA2024-MGT.pdf pdf]\] \n 
   *Wenjia Ye*, Bruno C. d. S. Oliveira and Matías Toro \n 
-  In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*) \n 
+  In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2024*, *CCF-A*, *Core Ranking A*) \n 
 - *Type-Directed Operational Semantics for Gradual Typing* \[[papers/JFP2024.pdf pdf]\] \n 
   *Wenjia Ye* and Bruno C. d. S. Oliveira \n 
-  In Journal of Functional Programming. (*JFP2024*) \n 
+  In Journal of Functional Programming. (*JFP2024*, *CCF-B*, *Core Ranking A*) \n 
   Note: This an extended version of the ECOOP 2021 paper.
 - *A Gradual Probabilistic Lambda Calculus* \[[papers/OOPSLA2023.pdf pdf]\] \n 
   *Wenjia Ye*, Matías Toro, and Federico Olmedo \n 
-  In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2023*) \n 
+  In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2023*, *CCF-A*, *Core Ranking A*) \n 
 - *Pragmatic Gradual Polymorphism with References* \[[papers/ESOP2023.pdf pdf]\] \n 
   *Wenjia Ye* and Bruno C. d. S. Oliveira \n 
-  In International Joint Conferences On Theory and Practice of Software (European Symposium on Programming). (*ESOP2023*) \n 
+  In International Joint Conferences On Theory and Practice of Software (European Symposium on Programming). (*ESOP2023*, *CCF-B*, *Core Ranking A*) \n 
 - *Type-Directed Operational Semantics for Gradual Typing* \[[papers/ECOOP2021.pdf pdf]\] \n 
   *Wenjia Ye*, Bruno C. d. S. Oliveira, and Xuejing Huang \n 
-  In European Conference on Object-Oriented Programming. (*ECOOP2021*) \n 
+  In European Conference on Object-Oriented Programming. (*ECOOP2021*, *CCF-B*, *Core Ranking A*) \n 
 - *Stm32-Based Vehicle Data Acquisition System for Internet-of-Vehicles* \[[papers/ICIS2017.pdf pdf]\] \n 
   Yong Xie, Xinpu Su, Yifan He, Xuhui Chen, Gengliang Cai, Baisheng Xu, and *Wenjia Ye* \n 
   In International Conference on Computer and Information Science. (*ICIS2017*) \n 
