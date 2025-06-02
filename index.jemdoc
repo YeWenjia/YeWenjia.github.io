@@ -29,7 +29,10 @@ My research focuses on Programming Languages, Type Systems, and Gradual Typing.
 
 
 == Publications 
-- *Elucidating Type Conversions in SQL Engines* \n 
+- *Principal Type Inference under a Prefix--A Fresh Look at Static Overloading* \[[papers/PLDI2025.pdf pdf]\] \n 
+  Daan Leijen, *Wenjia Ye* \n 
+  In ACM SIGPLAN Conference on Programming Language Design and Implementation. (*PLDI2025*, *CCF-A*, *Core Ranking A* *) \n 
+- *Elucidating Type Conversions in SQL Engines* \[[papers/ESOP2025.pdf pdf]\] \n 
   *Wenjia Ye*, Matías Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Éric Tanter \n 
   In International Joint Conferences On Theory and Practice of Software (European Symposium on Programming). (*ESOP2025*, *CCF-B*, *Core Ranking A*) \n 
 - *Principal Type Inference under a Prefix* \[[papers/principal-tr.pdf pdf]\] \n 
