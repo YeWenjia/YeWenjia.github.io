@@ -29,12 +29,15 @@ My research focuses on Programming Languages, Type Systems, and Gradual Typing.
 
 
 == Publications 
-- *Principal Type Inference under a Prefix--A Fresh Look at Static Overloading* \[[papers/PLDI2025.pdf pdf]\] \n 
-  Daan Leijen, *Wenjia Ye* \n 
-  In ACM SIGPLAN Conference on Programming Language Design and Implementation. (*PLDI2025, CCF-A, Core Ranking A*) (*+🏆Distinguished Paper Award🏆+*) \n 
+- *Flexible and Expressive Typed Path Patterns for GQL* \[[papers/OOPSLA2025-GQL.pdf pdf]\] \n 
+  *Wenjia Ye*, Matías Toro, Tomás Díaz, Bruno C. d. S. Oliveira, Manuel Rigger, Claudio Gutierrez and Domagoj Vrgoč \n 
+  In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2025, CCF-A, Core Ranking A*) \n 
 - *Elucidating Type Conversions in SQL Engines* \[[papers/ESOP2025.pdf pdf]\] \n 
   *Wenjia Ye*, Matías Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Éric Tanter \n 
   In International Joint Conferences On Theory and Practice of Software (European Symposium on Programming). (*ESOP2025*, *CCF-B*, *Core Ranking A*) \n 
+- *Principal Type Inference under a Prefix--A Fresh Look at Static Overloading* \[[papers/PLDI2025.pdf pdf]\] \n 
+  Daan Leijen, *Wenjia Ye* \n 
+  In ACM SIGPLAN Conference on Programming Language Design and Implementation. (*PLDI2025, CCF-A, Core Ranking A*) (*+🏆Distinguished Paper Award🏆+*) \n 
 - *Principal Type Inference under a Prefix* \[[papers/principal-tr.pdf pdf]\] \n 
   Daan Leijen, *Wenjia Ye* \n 
   Published by Microsoft: MSR-TR-2024-34. (September 2024) \n 
@@ -64,6 +67,7 @@ My research focuses on Programming Languages, Type Systems, and Gradual Typing.
 
 
 == Awards
+# - *Research* @
 - *ACM* @CCPC/ICPC University Programming Design Competition at Hangzhou (Bronze prize in Nov. 2016) 
 - *ACM* @CCPC/ICPC University Programming Design Competition at Qinhuangdao (Excellent prize in Jun. 2017) 
 - *ACM* @CCPC/ICPC Fujian Province University Programming Design Competition (three Silver Prizes in 2016, 2017, 2018) 
