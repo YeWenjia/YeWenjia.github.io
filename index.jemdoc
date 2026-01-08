@@ -61,14 +61,14 @@ My research focuses on Programming Languages, Type Systems, and Gradual Typing.
 - *Type-Directed Operational Semantics for Gradual Typing* \[[papers/ECOOP2021.pdf pdf]\] \n 
   *Wenjia Ye*, Bruno C. d. S. Oliveira, and Xuejing Huang \n 
   In European Conference on Object-Oriented Programming. (*ECOOP2021, CCF-B, Core Ranking A*) \n 
-- *Stm32-Based Vehicle Data Acquisition System for Internet-of-Vehicles* \[[papers/ICIS2017.pdf pdf]\] \n 
-  Yong Xie, Xinpu Su, Yifan He, Xuhui Chen, Gengliang Cai, Baisheng Xu, and *Wenjia Ye* \n 
-  In International Conference on Computer and Information Science. (*ICIS2017*) \n 
+# - *Stm32-Based Vehicle Data Acquisition System for Internet-of-Vehicles* \[[papers/ICIS2017.pdf pdf]\] \n 
+#  Yong Xie, Xinpu Su, Yifan He, Xuhui Chen, Gengliang Cai, Baisheng Xu, and *Wenjia Ye* \n 
+#  In International Conference on Computer and Information Science. (*ICIS2017*) \n 
 
 
 
 == Awards
-# - *Research* @
+- *Research* @Distinguish Paper Award (2025 ACM SIGPLAN Conference on Programming Language Design and Implementation)
 - *ACM* @CCPC/ICPC University Programming Design Competition at Hangzhou (Bronze prize in Nov. 2016) 
 - *ACM* @CCPC/ICPC University Programming Design Competition at Qinhuangdao (Excellent prize in Jun. 2017) 
 - *ACM* @CCPC/ICPC Fujian Province University Programming Design Competition (three Silver Prizes in 2016, 2017, 2018) 
