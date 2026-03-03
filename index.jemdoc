@@ -30,6 +30,8 @@ My research focuses on Programming Languages, Type Systems, and Gradual Typing.
 
 
 == Publications 
+- *Validated Code Translation for Projects with External Libraries* \n 
+   Hanliang Zhang, Arindam Sharma, Cristina David, Meng Wang, Brandon Paulsen, Daniel Kroening, *Wenjia Ye*, Taro Sekiyama \n 
 - *Flexible and Expressive Typed Path Patterns for GQL* \[[papers/OOPSLA2025-GQL.pdf pdf]\] \n 
   *Wenjia Ye*, Matías Toro, Tomás Díaz, Bruno C. d. S. Oliveira, Manuel Rigger, Claudio Gutierrez and Domagoj Vrgoč \n 
   In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (*OOPSLA2025, CCF-A, Core Ranking A*) \n 
