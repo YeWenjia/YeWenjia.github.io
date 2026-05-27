@@ -30,6 +30,8 @@ My research focuses on Programming Languages, Type Systems, and Gradual Typing.
 
 
 == Publications 
+- *A Gradual Probabilistic Lambda Calculus (Extended)* \n 
+  *Wenjia Ye*, Matías Toro, and Federico Olmedo \n 
 - *A Formal Framework for Typing and Cast Semantics in SQL Engines* \n 
   *Wenjia Ye*, Matías Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Éric Tanter \n 
 - *Validated Code Translation for Projects with External Libraries* \n 
