@@ -1,186 +1,476 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Wenjia Ye</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wenjia Ye</title>
+  <meta name="description" content="Wenjia Ye — programming languages researcher working on type systems, gradual typing, and type inference, and their application to AI compilers, databases, and memory safety.">
+  <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#131416" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Wenjia Ye">
+  <meta property="og:description" content="Programming languages researcher working on type systems, gradual typing, and type inference, and their application to AI compilers, databases, and memory safety.">
+  <meta property="og:url" content="https://yewenjia.github.io/">
+  <meta property="og:image" content="https://yewenjia.github.io/pic/photo.jpg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="layout-content">
-<div id="toptitle">
-<h1>Wenjia Ye</h1>
+
+<!-- Icons, referenced below with <use href="#i-..."> -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></symbol>
+  <symbol id="i-github" viewBox="0 0 16 16"><path fill="currentColor" stroke="none" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></symbol>
+  <symbol id="i-award" viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="page">
+  <div class="side">
+    <header class="profile">
+      <img class="avatar" src="pic/photo.jpg" alt="Photo of Wenjia Ye" width="287" height="255">
+      <h1 class="name">Wenjia Ye</h1>
+      <p class="affil">The University of Hong Kong</p>
+      <ul class="links">
+        <li><a href="mailto:yewenjia@outlook.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>yewenjia@outlook.com</a></li>
+        <li><a href="https://github.com/YeWenjia" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>GitHub</a></li>
+        <li><a href="papers/WenjiaYE_CV.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>Curriculum Vitae</a></li>
+      </ul>
+      <div class="interests">
+        <p class="interests-label" id="tags-foundations">Foundations</p>
+        <ul aria-labelledby="tags-foundations">
+          <li>Type Systems</li>
+          <li>Gradual Typing</li>
+          <li>Type Inference</li>
+          <li>Operational Semantics</li>
+          <li>Staged Programming</li>
+        </ul>
+        <p class="interests-label" id="tags-applications">Applications</p>
+        <ul aria-labelledby="tags-applications">
+          <li>AI Compilers</li>
+          <li>Graph Databases</li>
+          <li>Query Languages</li>
+          <li>Probabilistic Programming</li>
+          <li>Memory Safety</li>
+        </ul>
+      </div>
+    </header>
+
+    <nav class="toc" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#awards">Awards</a>
+      <a href="#service">Service</a>
+      <a href="#teaching">Teaching</a>
+    </nav>
+  </div>
+
+  <main id="main">
+
+    <!-- ===================== About ===================== -->
+    <section id="about">
+      <h2>About me</h2>
+      <p class="lead">
+        I am a senior research associate at the University of Bristol, working with
+        <a href="https://mengwangoxf.github.io/" target="_blank" rel="noopener">Prof. Meng Wang</a>.
+        Previously, I was a research fellow in the School of Computing, National University of Singapore,
+        working with <a href="https://www.manuelrigger.at/" target="_blank" rel="noopener">Prof. Manuel Rigger</a>.
+        I received my PhD from the University of Hong Kong under the supervision of
+        <a href="https://www.cs.hku.hk/~bruno" target="_blank" rel="noopener">Prof. Bruno C. d. S. Oliveira</a>.
+      </p>
+
+      <h3 class="label">Research focus</h3>
+      <p class="lead">
+        I work on type systems for programming languages: designing them, giving them precise semantics,
+        and proving them sound, then carrying these foundations into AI compilers, databases,
+        probabilistic programming, and memory safety.
+      </p>
+      <div class="current">
+        <h4 class="current-label">Current work</h4>
+        <dl class="current-list">
+          <dt>AI compilers</dt>
+          <dd>Designing a typed, staged language for TileLang and Triton, the tile-based languages used
+            to write GPU kernels, as the start of my work on AI compilers.</dd>
+          <dt>Graph databases</dt>
+          <dd>Using verification to improve both the correctness and the efficiency of graph database
+            systems.</dd>
+          <dt>Memory safety</dt>
+          <dd>Applying type systems and gradual typing to memory safety, modelling the boundary between
+            safe and unsafe Rust.</dd>
+        </dl>
+      </div>
+      <ul class="themes">
+        <li class="theme">
+          <h4 class="theme-title">Gradual typing</h4>
+          <p class="theme-text">Letting static and dynamic typing coexist in one language. I gave gradual
+            languages a simpler, type-directed operational semantics, and extended gradual typing to
+            polymorphism with references and to probabilistic programs.</p>
+          <p class="theme-papers">
+            <a class="venue" href="#pub-ecoop21">ECOOP 2021</a>
+            <a class="venue" href="#pub-esop23">ESOP 2023</a>
+            <a class="venue" href="#pub-oopsla23">OOPSLA 2023</a>
+            <a class="venue" href="#pub-mgt24">OOPSLA 2024</a>
+            <a class="venue" href="#pub-jfp24">JFP 2024</a>
+          </p>
+        </li>
+        <li class="theme">
+          <h4 class="theme-title">Type inference &amp; subtyping</h4>
+          <p class="theme-text">Principal type inference that puts static overloading on a firm footing,
+            and bidirectional typing for intersection subtyping in the presence of mutable references.</p>
+          <p class="theme-papers">
+            <a class="venue" href="#pub-pldi25">PLDI 2025</a>
+            <a class="venue" href="#pub-icp24">OOPSLA 2024</a>
+          </p>
+        </li>
+        <li class="theme">
+          <h4 class="theme-title">Types for query languages</h4>
+          <p class="theme-text">Type-theoretic foundations for SQL that explain how engines convert values
+            and why they disagree, and a flexible type discipline for path patterns in the graph query
+            language GQL.</p>
+          <p class="theme-papers">
+            <a class="venue" href="#pub-esop25">ESOP 2025</a>
+            <a class="venue" href="#pub-gql25">OOPSLA 2025</a>
+            <a class="venue" href="#pub-toplas26">TOPLAS 2026</a>
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===================== Publications =====================
+         To add a paper, copy one <li class="pub"> block.
+         Mark yourself with <b class="me">Wenjia Ye</b>. -->
+    <section id="publications">
+      <h2>Publications</h2>
+
+      <h3 class="label">2026</h3>
+      <ol class="pubs">
+        <li class="pub">
+          <h4 class="pub-title">SGL: A Concise Language for Specifying Database Fuzzers</h4>
+          <p class="pub-authors">Tongjun Zhang, <b class="me">Wenjia Ye</b>, and Manuel Rigger</p>
+        </li>
+        <li class="pub">
+          <h4 class="pub-title">A Gradual Probabilistic Lambda Calculus (Extended)</h4>
+          <p class="pub-authors">Matías Toro, Federico Olmedo, and <b class="me">Wenjia Ye</b></p>
+        </li>
+        <li class="pub">
+          <h4 class="pub-title">Validated Code Translation for Projects with External Libraries</h4>
+          <p class="pub-authors">Hanliang Zhang, Arindam Sharma, Cristina David, Meng Wang, Brandon Paulsen, Daniel Kroening, <b class="me">Wenjia Ye</b>, and Taro Sekiyama</p>
+        </li>
+        <li class="pub" id="pub-toplas26">
+          <h4 class="pub-title">A Formal Framework for Typing and Cast Semantics in SQL Engines</h4>
+          <p class="pub-authors"><b class="me">Wenjia Ye</b>, Matías Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Éric Tanter</p>
+          <p class="pub-venue"><span class="venue">TOPLAS 2026</span>ACM Transactions on Programming Languages and Systems</p>
+          <div class="pub-meta">
+            <a class="btn" href="papers/TOPLAS2026.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>PDF</a>
+            <span class="badge">CCF-A</span>
+            <span class="badge">CORE A</span>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="label">2025</h3>
+      <ol class="pubs">
+        <li class="pub" id="pub-gql25">
+          <h4 class="pub-title">Flexible and Expressive Typed Path Patterns for GQL</h4>
+          <p class="pub-authors"><b class="me">Wenjia Ye</b>, Matías Toro, Tomás Díaz, Bruno C. d. S. Oliveira, Manuel Rigger, Claudio Gutierrez, and Domagoj Vrgoč</p>
+          <p class="pub-venue"><span class="venue">OOPSLA 2025</span>ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications</p>
+          <div class="pub-meta">
+            <a class="btn" href="papers/OOPSLA2025-GQL.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>PDF</a>
+            <span class="badge">CCF-A</span>
+            <span class="badge">CORE A</span>
+          </div>
+        </li>
+        <li class="pub" id="pub-esop25">
+          <h4 class="pub-title">Elucidating Type Conversions in SQL Engines</h4>
+          <p class="pub-authors"><b class="me">Wenjia Ye</b>, Matías Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Éric Tanter</p>
+          <p class="pub-venue"><span class="venue">ESOP 2025</span>European Symposium on Programming (ETAPS)</p>
+          <div class="pub-meta">
+            <a class="btn" href="papers/ESOP2025.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>PDF</a>
+            <span class="badge">CCF-B</span>
+            <span class="badge">CORE A</span>
+          </div>
+        </li>
+        <li class="pub" id="pub-pldi25">
+          <h4 class="pub-title">Principal Type Inference under a Prefix: A Fresh Look at Static Overloading</h4>
+          <p class="pub-authors">Daan Leijen and <b class="me">Wenjia Ye</b></p>
+          <p class="pub-venue"><span class="venue">PLDI 2025</span>ACM SIGPLAN Conference on Programming Language Design and Implementation</p>
+          <div class="pub-meta">
+            <a class="btn" href="papers/PLDI2025.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>PDF</a>
+            <span class="badge award"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg>Distinguished Paper Award</span>
+            <span class="badge">CCF-A</span>
+            <span class="badge">CORE A</span>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="label">2024</h3>
+      <ol class="pubs">
+        <li class="pub">
+          <h4 class="pub-title">Principal Type Inference under a Prefix</h4>
+          <p class="pub-authors">Daan Leijen and <b class="me">Wenjia Ye</b></p>
+          <p class="pub-venue"><span class="venue">MSR-TR</span>Microsoft Research Technical Report MSR-TR-2024-34, September 2024</p>
+          <div class="pub-meta">
+            <a class="btn" href="papers/principal-tr.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>PDF</a>
+          </div>
+        </li>
+        <li class="pub" id="pub-icp24">
+          <h4 class="pub-title">Imperative Compositional Programming</h4>
+          <p class="pub-authors"><b class="me">Wenjia Ye</b>, Yaozhu Sun, and Bruno C. d. S. Oliveira</p>
+          <p class="pub-venue"><span class="venue">OOPSLA 2024</span>ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications</p>
+          <div class="pub-meta">
+            <a class="btn" href="papers/OOPSLA2024-ICP.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>PDF</a>
+            <span class="badge">CCF-A</span>
+            <span class="badge">CORE A</span>
+          </div>
+        </li>
+        <li class="pub" id="pub-mgt24">
+          <h4 class="pub-title">Merging Gradual Typing</h4>
+          <p class="pub-authors"><b class="me">Wenjia Ye</b>, Bruno C. d. S. Oliveira, and Matías Toro</p>
+          <p class="pub-venue"><span class="venue">OOPSLA 2024</span>ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications</p>
+          <div class="pub-meta">
+            <a class="btn" href="papers/OOPSLA2024-MGT.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>PDF</a>
+            <span class="badge">CCF-A</span>
+            <span class="badge">CORE A</span>
+          </div>
+        </li>
+        <li class="pub" id="pub-jfp24">
+          <h4 class="pub-title">Type-Directed Operational Semantics for Gradual Typing</h4>
+          <p class="pub-authors"><b class="me">Wenjia Ye</b> and Bruno C. d. S. Oliveira</p>
+          <p class="pub-venue"><span class="venue">JFP 2024</span>Journal of Functional Programming</p>
+          <p class="pub-note">Extended version of the ECOOP 2021 paper.</p>
+          <div class="pub-meta">
+            <a class="btn" href="papers/JFP2024.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>PDF</a>
+            <span class="badge">CCF-B</span>
+            <span class="badge">CORE A</span>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="label">2023</h3>
+      <ol class="pubs">
+        <li class="pub" id="pub-oopsla23">
+          <h4 class="pub-title">A Gradual Probabilistic Lambda Calculus</h4>
+          <p class="pub-authors"><b class="me">Wenjia Ye</b>, Matías Toro, and Federico Olmedo</p>
+          <p class="pub-venue"><span class="venue">OOPSLA 2023</span>ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications</p>
+          <div class="pub-meta">
+            <a class="btn" href="papers/OOPSLA2023.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>PDF</a>
+            <span class="badge">CCF-A</span>
+            <span class="badge">CORE A</span>
+          </div>
+        </li>
+        <li class="pub" id="pub-esop23">
+          <h4 class="pub-title">Pragmatic Gradual Polymorphism with References</h4>
+          <p class="pub-authors"><b class="me">Wenjia Ye</b> and Bruno C. d. S. Oliveira</p>
+          <p class="pub-venue"><span class="venue">ESOP 2023</span>European Symposium on Programming (ETAPS)</p>
+          <div class="pub-meta">
+            <a class="btn" href="papers/ESOP2023.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>PDF</a>
+            <span class="badge">CCF-B</span>
+            <span class="badge">CORE A</span>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="label">2021</h3>
+      <ol class="pubs">
+        <li class="pub" id="pub-ecoop21">
+          <h4 class="pub-title">Type-Directed Operational Semantics for Gradual Typing</h4>
+          <p class="pub-authors"><b class="me">Wenjia Ye</b>, Bruno C. d. S. Oliveira, and Xuejing Huang</p>
+          <p class="pub-venue"><span class="venue">ECOOP 2021</span>European Conference on Object-Oriented Programming</p>
+          <div class="pub-meta">
+            <a class="btn" href="papers/ECOOP2021.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>PDF</a>
+            <span class="badge">CCF-B</span>
+            <span class="badge">CORE A</span>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===================== Awards ===================== -->
+    <section id="awards">
+      <h2>Awards &amp; Honors</h2>
+
+      <h3 class="label">Research</h3>
+      <ul class="rows">
+        <li class="highlight">
+          <span class="row-title"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg>Distinguished Paper Award</span>
+          <span class="row-sub">ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)</span>
+          <span class="row-date">2025</span>
+        </li>
+      </ul>
+
+      <h3 class="label">Scholarships &amp; Honors</h3>
+      <ul class="rows">
+        <li>
+          <span class="row-title">National Excellent Representative of National Scholarship Recipients</span>
+          <span class="row-sub">Top 0.2%</span>
+          <span class="row-date">2019</span>
+        </li>
+        <li>
+          <span class="row-title">Excellent Undergraduate Student</span>
+          <span class="row-date">2019</span>
+        </li>
+        <li>
+          <span class="row-title">National Scholarship</span>
+          <span class="row-date">2018</span>
+        </li>
+      </ul>
+
+      <h3 class="label">Programming Contests</h3>
+      <ul class="rows">
+        <li>
+          <span class="row-title">CCPC/ICPC University Programming Design Competition, Qinhuangdao</span>
+          <span class="row-sub">Excellent Prize</span>
+          <span class="row-date">Jun 2017</span>
+        </li>
+        <li>
+          <span class="row-title">National Software and IT Competition — Professional, Individual</span>
+          <span class="row-sub">Third Prize</span>
+          <span class="row-date">Apr 2017</span>
+        </li>
+        <li>
+          <span class="row-title">CCPC/ICPC University Programming Design Competition, Hangzhou</span>
+          <span class="row-sub">Bronze Prize</span>
+          <span class="row-date">Nov 2016</span>
+        </li>
+        <li>
+          <span class="row-title">CCPC/ICPC Fujian Province University Programming Design Competition</span>
+          <span class="row-sub">Three Silver Prizes</span>
+          <span class="row-date">2016 – 2018</span>
+        </li>
+      </ul>
+
+      <h3 class="label">Software Development</h3>
+      <ul class="rows">
+        <li>
+          <span class="row-title">National Software and IT Competition — Professional Entrepreneurial Team</span>
+          <span class="row-sub">Second Prize (subway transportation project); Excellent Prize (Power app project)</span>
+          <span class="row-date">2017</span>
+        </li>
+        <li>
+          <span class="row-title">2nd China Intelligent Interconnection Innovation Competition — Southern China Division</span>
+          <span class="row-sub">Winning Prize</span>
+          <span class="row-date">2017</span>
+        </li>
+        <li>
+          <span class="row-title">1st China Innovation and Entrepreneurship Achievements Fair</span>
+          <span class="row-sub">Best Creative Award</span>
+          <span class="row-date">2016</span>
+        </li>
+        <li>
+          <span class="row-title">3rd China Next-Generation Internet Technological Innovation Competition</span>
+          <span class="row-sub">Third Prize</span>
+          <span class="row-date">2016</span>
+        </li>
+      </ul>
+
+      <h3 class="label">Other Competitions</h3>
+      <ul class="rows">
+        <li>
+          <span class="row-title">National English Contest for College Students</span>
+          <span class="row-sub">Second Prize</span>
+          <span class="row-date">2017, 2018</span>
+        </li>
+        <li>
+          <span class="row-title">Fujian Province Cyberspace Security Competition</span>
+          <span class="row-sub">Third Prize</span>
+          <span class="row-date">2016, 2017</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===================== Service ===================== -->
+    <section id="service">
+      <h2>Service</h2>
+      <dl class="service">
+        <dt>Publicity Chair</dt>
+        <dd><span class="chip">PEPM 2026</span><span class="chip">APLAS 2026</span></dd>
+        <dt>Reviewer / Subreviewer</dt>
+        <dd><span class="chip">PLDI 2027</span><span class="chip">PLDI 2026</span><span class="chip">ICALP 2026</span><span class="chip">ECOOP 2025</span><span class="chip">OOPSLA 2024</span><span class="chip">ECOOP 2022</span></dd>
+        <dt>Artifact Evaluation Committee</dt>
+        <dd><span class="chip">ESOP 2024</span><span class="chip">ECOOP 2022</span></dd>
+        <dt>Student Volunteer</dt>
+        <dd><span class="chip">ESOP 2023</span><span class="chip">OPLSS 2023</span></dd>
+        <dt>Funded Attendee</dt>
+        <dd><span class="chip">OPLSS 2023</span><span class="chip">OOPSLA 2023</span></dd>
+      </dl>
+    </section>
+
+    <!-- ===================== Teaching ===================== -->
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <ul class="rows">
+        <li>
+          <span class="row-title">CS3213 Foundations of Software Engineering</span>
+          <span class="row-sub">Guest Lecture · National University of Singapore</span>
+          <span class="row-date">2025 – 2026</span>
+        </li>
+        <li>
+          <span class="row-title">COMP2119 Introduction to Data Structures and Algorithms</span>
+          <span class="row-sub">Teaching Assistant · The University of Hong Kong</span>
+          <span class="row-date">2023 – 2024</span>
+        </li>
+        <li>
+          <span class="row-title">COMP2119 Introduction to Data Structures and Algorithms</span>
+          <span class="row-sub">Teaching Assistant · The University of Hong Kong</span>
+          <span class="row-date">2022 – 2023</span>
+        </li>
+        <li>
+          <span class="row-title">COMP2121 Discrete Mathematics</span>
+          <span class="row-sub">Teaching Assistant · The University of Hong Kong</span>
+          <span class="row-date">2021 – 2022</span>
+        </li>
+        <li>
+          <span class="row-title">COMP3258 Functional Programming</span>
+          <span class="row-sub">Teaching Assistant · The University of Hong Kong</span>
+          <span class="row-date">2020 – 2021</span>
+        </li>
+      </ul>
+    </section>
+
+  </main>
 </div>
-<table class="imgtable"><tr><td>
-<a href="https://yewenjia.github.io"><img src="pic/photo.jpg" alt="alt text" width="220px" height="200px" /></a>&nbsp;</td>
-<td align="left"><p><a href="https://yewenjia.github.io" target=&ldquo;blank&rdquo;>Wenjia Ye</a> <br />
 
-The University of Hong Kong <br />
-E-mail: yewenjia@outlook.com <br /> 
-[<a href="https://github.com/YeWenjia" target=&ldquo;blank&rdquo;>Github</a>][<a href="papers/WenjiaYE_CV.pdf" target=&ldquo;blank&rdquo;>Curriculem Vitae</a>] <br />
-</p>
-</td></tr></table>
-<h2>About me</h2>
-<p>I am a senior research associate in the University of Bristol, working with <a href="https://mengwangoxf.github.io/" target=&ldquo;blank&rdquo;>Prof. Meng Wang</a>. 
-I used to be a research fellow in School of Computing, National University of Singapore. I was working with <a href="https://www.manuelrigger.at/" target=&ldquo;blank&rdquo;>Prof. Manuel Rigger</a>.
-I received my PhD degree from the University of Hong Kong under the supervision of <a href="https://www.cs.hku.hk/~bruno" target=&ldquo;blank&rdquo;>Prof. Bruno C. d. S. Oliveira</a>. My research focuses on Programming Languages, Type Systems, and Gradual Typing.
-</p>
-<h2>Publications </h2>
-<ul>
-<li><p><b>SGL: A Concise Language for Specifying Database Fuzzers</b> <br /> 
-Tongjun Zhang, <b>Wenjia Ye</b>, and Manuel Rigger<br /> 
-</p>
-</li>
-<li><p><b>A Gradual Probabilistic Lambda Calculus (Extended)</b> <br /> 
-Matías Toro, Federico Olmedo, and <b>Wenjia Ye</b> <br /> 
-</p>
-</li>
-<li><p><b>Validated Code Translation for Projects with External Libraries</b> <br /> 
-Hanliang Zhang, Arindam Sharma, Cristina David, Meng Wang, Brandon Paulsen, Daniel Kroening, <b>Wenjia Ye</b>, Taro Sekiyama <br /> 
-</p>
-</li>
-<li><p><b>A Formal Framework for Typing and Cast Semantics in SQL Engines</b> [<a href="papers/TOPLAS2026.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br /> 
-<b>Wenjia Ye</b>, Matías Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Éric Tanter <br /> 
-In ACM Transactions on Programming Languages and Systems (<b>TOPLAS2026, CCF-A, Core Ranking A</b>).
-</p>
-</li>
-<li><p><b>Flexible and Expressive Typed Path Patterns for GQL</b> [<a href="papers/OOPSLA2025-GQL.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br /> 
-<b>Wenjia Ye</b>, Matías Toro, Tomás Díaz, Bruno C. d. S. Oliveira, Manuel Rigger, Claudio Gutierrez and Domagoj Vrgoč <br /> 
-In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (<b>OOPSLA2025, CCF-A, Core Ranking A</b>) <br /> 
-</p>
-</li>
-<li><p><b>Elucidating Type Conversions in SQL Engines</b> [<a href="papers/ESOP2025.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br /> 
-<b>Wenjia Ye</b>, Matías Toro, Claudio Gutierrez, Bruno C. d. S. Oliveira, and Éric Tanter <br /> 
-In International Joint Conferences On Theory and Practice of Software (European Symposium on Programming). (<b>ESOP2025</b>, <b>CCF-B</b>, <b>Core Ranking A</b>) <br /> 
-</p>
-</li>
-<li><p><b>Principal Type Inference under a Prefix&ndash;A Fresh Look at Static Overloading</b> [<a href="papers/PLDI2025.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br /> 
-Daan Leijen, <b>Wenjia Ye</b> <br /> 
-In ACM SIGPLAN Conference on Programming Language Design and Implementation. (<b>PLDI2025, CCF-A, Core Ranking A</b>) (<b><tt>🏆Distinguished Paper Award🏆</tt></b>) <br /> 
-</p>
-</li>
-<li><p><b>Principal Type Inference under a Prefix</b> [<a href="papers/principal-tr.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br /> 
-Daan Leijen, <b>Wenjia Ye</b> <br /> 
-Published by Microsoft: MSR-TR-2024-34. (September 2024) <br /> 
-</p>
-</li>
-<li><p><b>Imperative Compositional Programming</b> [<a href="papers/OOPSLA2024-ICP.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br /> 
-<b>Wenjia Ye</b>, Yaozhu Sun and Bruno C. d. S. Oliveira <br /> 
-In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (<b>OOPSLA2024, CCF-A, Core Ranking A</b>) <br /> 
-</p>
-</li>
-<li><p><b>Merging Gradual Typing</b> [<a href="papers/OOPSLA2024-MGT.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br /> 
-<b>Wenjia Ye</b>, Bruno C. d. S. Oliveira and Matías Toro <br /> 
-In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (<b>OOPSLA2024, CCF-A, Core Ranking A</b>) <br /> 
-</p>
-</li>
-<li><p><b>Type-Directed Operational Semantics for Gradual Typing</b> [<a href="papers/JFP2024.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br /> 
-<b>Wenjia Ye</b> and Bruno C. d. S. Oliveira <br /> 
-In Journal of Functional Programming. (<b>JFP2024</b>, <b>CCF-B</b>, <b>Core Ranking A</b>) <br /> 
-Note: This an extended version of the ECOOP 2021 paper.
-</p>
-</li>
-<li><p><b>A Gradual Probabilistic Lambda Calculus</b> [<a href="papers/OOPSLA2023.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br /> 
-<b>Wenjia Ye</b>, Matías Toro, and Federico Olmedo <br /> 
-In ACM International Conference on Object-Oriented Programming, Systems, Languages and Applications. (<b>OOPSLA2023, CCF-A, Core Ranking A</b>) <br /> 
-</p>
-</li>
-<li><p><b>Pragmatic Gradual Polymorphism with References</b> [<a href="papers/ESOP2023.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br /> 
-<b>Wenjia Ye</b> and Bruno C. d. S. Oliveira <br /> 
-In International Joint Conferences On Theory and Practice of Software (European Symposium on Programming). (<b>ESOP2023, CCF-B, Core Ranking A</b>) <br /> 
-</p>
-</li>
-<li><p><b>Type-Directed Operational Semantics for Gradual Typing</b> [<a href="papers/ECOOP2021.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br /> 
-<b>Wenjia Ye</b>, Bruno C. d. S. Oliveira, and Xuejing Huang <br /> 
-In European Conference on Object-Oriented Programming. (<b>ECOOP2021, CCF-B, Core Ranking A</b>) <br /> 
+<footer class="footer">© Wenjia Ye</footer>
 
+<script>
+  // Highlight the section currently in view in the nav.
+  (function () {
+    var nav = document.querySelector('.toc');
+    var links = Array.prototype.slice.call(nav.querySelectorAll('a'));
+    var sections = links.map(function (a) { return document.getElementById(a.hash.slice(1)); });
+    var current = null;
 
+    function update() {
+      var line = window.innerHeight * 0.3;
+      var i = 0;
+      sections.forEach(function (s, k) { if (s.getBoundingClientRect().top <= line) i = k; });
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) i = sections.length - 1;
+      if (links[i] === current) return;
+      if (current) current.removeAttribute('aria-current');
+      current = links[i];
+      current.setAttribute('aria-current', 'true');
 
-</p>
-</li>
-</ul>
-<h2>Awards</h2>
-<ul>
-<li><p><b>Research</b> @Distinguish Paper Award (2025 ACM SIGPLAN Conference on Programming Language Design and Implementation)
-</p>
-</li>
-<li><p><b>ACM</b> @CCPC/ICPC University Programming Design Competition at Hangzhou (Bronze prize in Nov. 2016) 
-</p>
-</li>
-<li><p><b>ACM</b> @CCPC/ICPC University Programming Design Competition at Qinhuangdao (Excellent prize in Jun. 2017) 
-</p>
-</li>
-<li><p><b>ACM</b> @CCPC/ICPC Fujian Province University Programming Design Competition (three Silver Prizes in 2016, 2017, 2018) 
-</p>
-</li>
-<li><p><b>ACM</b> @National software and IT competition for the professional&ndash;individual (the third prize in Apr. 2017) 
-</p>
-</li>
-<li><p><b>Language</b> @National English Contest for College Students (The second prize in 2017 and 2018) 
-</p>
-</li>
-<li><p><b>Software Development</b> @2017 National software and IT competition for the professional-entrepreneurial team competition (The second prize in the subway transportation project; excellent prize in Power app project) 
-</p>
-</li>
-<li><p><b>Software Development</b> @2016 the first China’s Innovation and entrepreneurship achievements fair (the best creative award)
-</p>
-</li>
-<li><p><b>Software Development</b> @2016 the third China’s next-generation internet technological innovation competition (the third prize) 
-</p>
-</li>
-<li><p><b>Software Development</b> @2017 the second China’s intelligent interconnection innovation competition—Southern China division (winning prize) 
-</p>
-</li>
-<li><p><b>Internet security</b> @2017 Fujian Province Cyberspace security competition (the third prize in 2016 and 2017) 
-</p>
-</li>
-<li><p><b>Scholarships &amp; Honors</b> @National Scholarship (2018) 
+      // On narrow screens the nav scrolls sideways; keep the active link visible.
+      var left = current.offsetLeft, right = left + current.offsetWidth;
+      if (left < nav.scrollLeft || right > nav.scrollLeft + nav.clientWidth) {
+        nav.scrollTo({ left: left - 16, behavior: 'smooth' });
+      }
+    }
 
-
-
-</p>
-</li>
-<li><p><b>Scholarships &amp; Honors</b> @National Excellent Representative of National Scholarship Awarders (0.2%) (2019) 
-</p>
-</li>
-<li><p><b>Scholarships &amp; Honors</b> @Excellent Undergraduate Student (2019) 
-</p>
-</li>
-</ul>
-<h2>Services</h2>
-<ul>
-<li><p>Reviewer / Subreviewer: ECOOP2022, ECOOP2025
-</p>
-</li>
-<li><p>AEC: ECOOP2022, ESOP2024
-</p>
-</li>
-<li><p>Student Volunteer: ESOP2023, OPLSS2023  
-</p>
-</li>
-<li><p>Funded Attendee: OPLSS2023, OOPSLA2023
-</p>
-</li>
-</ul>
-<h2>Teaching</h2>
-<ul>
-<li><p><b>Guest Lecture</b> (2025-2026). CS3213 Foundations of Software Engineering. National University of Singapore.
-</p>
-</li>
-<li><p><b>Teacher Assistant</b> (2024-2023). COMP2119 Introduction to Data Structures and Algorithms. The University of Hong Kong.
-</p>
-</li>
-<li><p><b>Teacher Assistant</b> (2022-2023). COMP2119 Introduction to Data Structures and Algorithms. The University of Hong Kong.
-</p>
-</li>
-<li><p><b>Teacher Assistant</b> (2021-2022). COMP2121 Discrete Mathematics. The University of Hong Kong.
-</p>
-</li>
-<li><p><b>Teacher Assistant</b> (2020-2021). COMP3258 Functional Programming. The University of Hong Kong.
-</p>
-</li>
-</ul>
-</div>
+    var queued = false;
+    window.addEventListener('scroll', function () {
+      if (queued) return;
+      queued = true;
+      requestAnimationFrame(function () { queued = false; update(); });
+    }, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  })();
+</script>
 </body>
 </html>
